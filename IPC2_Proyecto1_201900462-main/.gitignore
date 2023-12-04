@@ -1,0 +1,6 @@
+__pycache__/
+*.xml
+*.dot
+*.svg
+
+.vscode/

@@ -1,0 +1,11 @@
+ digraph G { 
+bokunopico[label="bokunopico",color = "green",arrowhead = "diamond",fillcolor="red",style="filled",shape="box"];
+cowboybetpop[label="cowboybetpop",color = "green",arrowhead = "diamond",fillcolor="red",style="filled",shape="box"];
+kokun[label="kokun",color = "green",arrowhead = "diamond",fillcolor="red",style="filled",shape="box"];
+bokunohero[label="bokunohero",color = "green",arrowhead = "diamond",fillcolor="red",style="filled",shape="box"];
+kimetsunoyaiba[label="kimetsunoyaiba",color = "green",arrowhead = "diamond",fillcolor="red",style="filled",shape="box"];
+bokunopico->cowboybetpop;
+cowboybetpop->kokun;
+kokun->bokunohero;
+bokunohero->kimetsunoyaiba;
+}

@@ -1,0 +1,6 @@
+digraph ejemploForma2 {
+	a [label="Hola mundo 2"]
+	b [label="Hola mundo 3"]
+	a -> b
+	b -> a
+}

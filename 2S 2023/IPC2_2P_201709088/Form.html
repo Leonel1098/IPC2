@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		
+		<meta charset=utf-8 />
+		
+		<title>Formulario</title>
+		
+		<link rel=stylesheet href=style.css type=text/css>
+	
+	</head>
+	
+	<body>
+	
+		<h1>Formulario de Pago</h1>
+	
+		<form id=payment>
+		
+			<fieldset>
+			
+				<legend>Tus Datos</legend>
+		
+				<ol>
+					
+					<li>
+						<label for=name>Nombre</label>
+						<input id=name name=name type=text placeholder="Nombre completo" required autofocus>
+					</li>
+					
+					<li>
+						<label for=email>Email</label>
+						<input id=email name=email type=email placeholder="example@gmail.com" required>
+					</li>
+					
+					<li>
+						<label for=phone>Teléfono</label>
+						<input id=phone name=phone type=tel placeholder="+502 59874512" required>
+					</li>
+						
+				</ol>
+			
+			</fieldset>
+			
+			<fieldset>
+			
+				<legend>Dirección de Entrega</legend>
+				
+				<ol>
+				
+					<li>
+						<label for=address>Dirección</label>
+						<textarea id=address name=address rows=5 required></textarea>
+					</li>
+					
+					<li>
+						<label for=postcode>Código Postal</label>
+						<input id=postcode name=postcode type=text required>
+					</li>
+					
+					<li>
+						<label for=country>País</label>
+						<input id=country name=country type=text required>
+					</li>
+				
+				</ol>
+			
+			</fieldset>
+			
+			<fieldset>
+			
+				<legend>Detalles de la Tarjeta</legend>
+				
+				<ol>
+				
+					<li>
+					
+						<fieldset>
+							
+							<legend>Tipo de tarjeta</legend>
+							
+							<ol>
+								
+								<li>
+									<input id=visa name=cardtype type=radio>
+									<label for=visa>VISA</label>
+								</li>
+								
+								<li>
+									<input id=amex name=cardtype type=radio>
+									<label for=amex>AmEx</label>
+								</li>
+								
+								<li>
+									<input id=mastercard name=cardtype type=radio>
+									<label for=mastercard>Mastercard</label>
+								</li>
+								
+							</ol>
+							
+						</fieldset>
+						
+					</li>
+					
+					<li>
+						<label for=cardnumber>Número de Tarjeta</label>
+						<input id=cardnumber name=cardnumber type=number required>
+					</li>
+					
+					<li>
+						<label for=secure>Código de Seguridad</label>
+						<input id=secure name=secure type=number required>
+					</li>
+					
+					<li>
+						<label for=namecard>Nombre de la tarjeta</label>
+						<input id=namecard name=namecard type=text placeholder="Nombre de la tarjeta" required>
+					</li>
+				
+				</ol>
+				
+			</fieldset>
+			
+			<fieldset>
+			
+				<button type=submit>Comprar!</button>
+			
+			</fieldset>
+		
+		</form>
+	
+	</body>
+
+</html>

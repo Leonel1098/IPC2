@@ -1,0 +1,6 @@
+ digraph G { 
+ a[label="Hola"];
+ b[label="mundo"];
+ a -> b; 
+ b -> a; 
+}
